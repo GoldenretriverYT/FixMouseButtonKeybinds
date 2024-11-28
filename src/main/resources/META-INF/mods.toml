@@ -11,7 +11,7 @@ loaderVersion="[43,)" #mandatory This is typically bumped every Minecraft versio
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
 license="All rights reserved"
 # A URL to refer people to when problems occur with this mod
-#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+issueTrackerURL="https://github.com/GoldenretriverYT/FixMouseButtonKeybinds/issues/" #optional
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
@@ -26,13 +26,13 @@ displayName="Fix Mouse Keybinds" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+displayURL="https://www.curseforge.com/minecraft/mc-mods/fix-mouse-keybinds/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 # A text field displayed in the mod UI
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Fixes the fact that most mods do not directly listen to mouse button events, which causes mouse button keybinds to only work when pressing any key.'''
-
+Fixes the fact that most mods do not directly listen to mouse button events, which causes mouse button keybinds to only work when pressing any key.
+'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.fixmb]] #optional
 # the modid of the dependency
@@ -51,6 +51,5 @@ side="BOTH"
 modId="minecraft"
 mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-versionRange="[1.19,1.20)"
+versionRange="[1.19,)"
 ordering="NONE"
-side="BOTH"
